@@ -38,3 +38,8 @@ $$ EDAP = ( 2.96053 +   0.0523094 + 0.0563774 ) * runTime * 5.39698 = 16.5645016
 45053.88 / 16.54 = 2723.93 \
 If we compare it to 50, it is 5 times greater. If the above division would be close to 50, we maybe could make a discussion around the fact that the XEON could be more efficient, but with the current data the answer is that the ARM is by far more energy efficient.
 
+
+## Bibliography 
+https://ieeexplore.ieee.org/document/5375438
+
+
