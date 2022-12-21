@@ -19,5 +19,5 @@ Gate leakage is the current leaking through the gate terminal,
 and varies greatly with the state of the device.
 
 ### Running Different Programs in the same processor - Dynamic Power and Leakage
-The dynamic power will be different because each program may need more hardware than others, so the dynamic power will be greater. Regarding dynamic leakage, we are expecting to see no difference because its nature is static and depends on the width of the transistors.
+The dynamic power will be different because each program may need more hardware than others, so the dynamic power will be greater. Regarding dynamic leakage, we are expecting to see no difference, because its nature, which is static and depends on the width of the transistors.
 
