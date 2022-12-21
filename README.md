@@ -28,4 +28,4 @@ The WATT Ratings are reffering to the maximum power that a CPU can handle under 
 ## Q1.3
 We can compare the results from Xeon and ARM A9 processors by compraring EDAP (Energy-Delay-Area Product).
 
-$$ EDAP = (Runtime Dynamic + Subthreshold Leakage + Gate Leakage) * runTime * Area $$
+$$ EDAP = (Runtime \ Dynamic + Subthreshold \ Leakage + Gate \ Leakage) * runTime * Area $$
