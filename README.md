@@ -29,3 +29,11 @@ The WATT Ratings are reffering to the maximum power that a CPU can handle under 
 We can compare the results from Xeon and ARM A9 processors by compraring EDAP (Energy-Delay-Area Product).
 
 $$ EDAP = (Runtime \ Dynamic + Subthreshold \ Leakage + Gate \ Leakage) * runTime * Area $$
+
+### XEON
+$$ EDAP = ( 72.9199 + 35.1632 + 1.66871 ) * runTime * 410.507 = 45053.88626767 * runTime $$
+### ARM
+$$ EDAP = ( 2.96053 +   0.0523094 + 0.0563774 ) * runTime * 5.39698 = 16.564501685264002 * runTime $$
+
+45053.88 / 16.54 = 2723.93, which is a number that if we compare it to 50, is 5 times greater. If it would be close to 50 we maybe we could make a discussion around the fact that the XEON is more efficient, but we the current data absolutely not.
+
