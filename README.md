@@ -1,7 +1,7 @@
 # ComputerArchitectureLab3
 The objective of this lab is to be familiar with the McPAT simulator that produces results about the consuming power of a program
 
-
+## Q1.1
 ### Dynamic Power
 Circuits dissipate dynamic power when they
 charge and discharge the capacitive loads to switch states.
@@ -18,4 +18,6 @@ passes between the source and drain of off-state transistors.
 Gate leakage is the current leaking through the gate terminal,
 and varies greatly with the state of the device.
 
+### Running Different Programs in the same processor - Dynamic Power and Leakage
+The dynamic power will be different because each program may need more hardware than the other so the dynamic power will be greater. Regarding dynamic leakage, we are expecting to see no difference because its nature is static and depends on the width of the transistors.
 
