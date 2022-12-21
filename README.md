@@ -24,3 +24,8 @@ The dynamic power will be different because each program may need more hardware 
 ## Q1.2
 The WATT Ratings are reffering to the maximum power that a CPU can handle under full load, so it is not a valid metric to say which CPU will be more efficient. For instance, the CPU with the 50W peak consumption may be more efficienT if it can handle in a smart way the system / program and eventually it may needs 4W average power. On the other hand, the other processor may needs all the power that can handles cause its different architecture. McPAT cannot gives us straight ahead the answer to the problem. We will need, how each CPU performs under a specific load.
 
+
+## Q1.3
+We can compare the results from Xeon and ARM A9 processors by compraring EDAP (Energy-Delay-Area Product).
+
+$ EDAP = (Runtime Dynamic + Subthreshold Leakage + Gate Leakage) * runTime * Area $
